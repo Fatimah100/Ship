@@ -30,7 +30,7 @@ function draw() {
   background("blue");
   console.log(ship.y);
   if(sea.x < 0){
-    sea.x=width/2;
+    sea.x=sea.width/2;
     }
     ship.velocityY = ship.velocityY + 0.5;
     ship.collide(sea)
